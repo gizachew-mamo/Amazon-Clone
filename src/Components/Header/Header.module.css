@@ -3,7 +3,7 @@
     padding: 0;
   }
   .fixed{
-    position: sticky;
+    position:sticky;
     top: 0;
     z-index: 100;
   }
@@ -36,7 +36,7 @@
     gap: 3px;
     font-weight: bold;
     padding: 5px;
-  }
+  } 
   .delivery p{
     font-size: 10px;
   }
@@ -44,13 +44,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
     width: 100%;
     flex: 1;
   }
   .search select, .search input{
-    padding: 16px;
+    padding: 12px;
     font-weight: bold;
     outline: 1px solid white;
   }
@@ -63,10 +63,10 @@
     margin-right: -2px;
   }
   .search svg{
-    padding: 7px;
+    padding: 5px;
     background: #febd69;
     color: #1a1a1a;
-  }
+  } 
   .search svg:hover{
     background-color: #d49644;
   }
@@ -101,9 +101,6 @@
     width: 60%;
     height: 20px;
     padding-top:5px ;
-    
-    
-    
   }
   .cart{
     position: relative;

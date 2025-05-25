@@ -1,18 +1,16 @@
 
-import Header from "./Components/Header/Header";
+
+import Routing from "./Router";
 
 
 function App() {
  
 
   return (
-
-      <>
-    <Header/>
-        
-      </>
-      
-
+    <>
+      <Routing />
+     
+    </>
   );
 }
 
